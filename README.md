@@ -6,8 +6,8 @@ This project aimed to evaluate the performance of spatially-explicit statistical
  All models were developed in ADMB (https://www.admb-project.org/). 
 
 # Model Descriptions
-1. **FAA1**
-2. **FAA2**
+1. **FAA1** - This model is a spatially-implicit, fleets-as-areas model with two fleets that resembled the current assessment model used to inform management. The two fleets for were the Chesapeake Bay fleet and the Ocean fleet. This model assumed a single region, a single unit stock, and annual time-steps, and did not correct for ageing error
+2. **FAA2** - Similar to FAA1, except it assumes ageing error in the age composition and applies and ageing error matrix. 
 3. **SE1** - This model is a two spawning stock (Atlantic Coast and Chesapeake Bay), two area (Ocean and Chesapeake Bay) model that estimates abundance, movement, fishing mortality, and biomass at two 6-month time-steps for 30 years. This model does not assume error in the age composition data.  
 4. **SE2** - Similar to SE1 except it assumes ageing error in the age composition and applies an ageing error matrix.  
 5. **SE3** -
