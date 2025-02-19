@@ -10,7 +10,7 @@ This project aimed to evaluate the performance of spatially-explicit statistical
 2. **FAA2** - Similar to FAA1, except it assumes ageing error in the age composition and applies and ageing error matrix. 
 3. **SE1** - This model is a two spawning stock (Atlantic Coast and Chesapeake Bay), two area (Ocean and Chesapeake Bay) model that estimates abundance, movement, fishing mortality, and biomass at two 6-month time-steps for 30 years. This model does not assume error in the age composition data.  
 4. **SE2** - Similar to SE1 except it assumes ageing error in the age composition and applies an ageing error matrix.  
-5. **SE3** -
+5. **SE3** - SE model that incorporated additional data on stock composition for the last ten years and included ageing error, but it did not include informative priors on the occupancy probabilities
 
 For a complete description of SE2, see()
 
