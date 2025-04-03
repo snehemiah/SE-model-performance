@@ -1,7 +1,7 @@
 # SE-model-performance
 
 # Background
-This project aimed to evaluate the performance of spatially-explicit statistical catch-at-age models (descriped in Nehemiah et al. in prep) compared to spatially-implicit (fleets-as-areas) approaches. Using Atlantic Striped Bass, we developed a simulation study to assess accuracy of spatially-explicit multi-stock and spatially-implicit single stock assessment models with alternative scenarios of data availability and data quality. Specifically we evlauted the effect of ageing error and stock composition data on model accuracy.
+This project aimed to evaluate the performance of spatially-explicit statistical catch-at-age models (descriped in Nehemiah et al. in review) compared to spatially-implicit (fleets-as-areas) approaches. Using Atlantic Striped Bass, we developed a simulation study to assess accuracy of spatially-explicit multi-stock and spatially-implicit single stock assessment models with alternative scenarios of data availability and data quality. Specifically we evlauted the effect of ageing error and stock composition data on model accuracy.
 
  All models were developed in ADMB (https://www.admb-project.org/). 
 
@@ -12,7 +12,7 @@ This project aimed to evaluate the performance of spatially-explicit statistical
 4. **SE2** - Similar to SE1 except it assumes ageing error in the age composition and applies an ageing error matrix.  
 5. **SE3** - SE model that incorporated additional data on stock composition for the last ten years and included ageing error, but it did not include informative priors on the occupancy probabilities
 
-For a complete description of SE1 and SE2, see: Nehemiah et al. (in prep)
+For a complete description of SE1 and SE2, see: Nehemiah et al. (in review)
 
 # Code Available
 R Code is availablefor the full simulation. Estimation models were coded in ADMB. 
@@ -21,7 +21,7 @@ R Code is availablefor the full simulation. Estimation models were coded in ADMB
 This work was funded by the NOAA Chesapeake Bay Office and the NMFS/Sea Grant Population and Ecosystems Dynamic Fellowship. Collaborators include researchers from the Chesapeake Biological Laboratory and the NMFS Southeast Fisheries Scienct Center.
 
 # Manuscript Citation
-Nehemiah, S., A.M. Schueller, and M.J. Wilberg. Effects of model misspecification and data availability on spatially-explicit assessment model performance. In review.
+Nehemiah, S., A.M. Schueller, and M.J. Wilberg. Effects of model misspecification and data availability on spatially-explicit assessment model performance. In Prep.
 
 # Contact
 If you have any questions, please contact Samara (she/her) at snehemiah@asmfc.org. 
